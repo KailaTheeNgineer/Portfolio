@@ -6,8 +6,6 @@ public abstract class FixedAsset implements  Valuable {
     protected double karat;   protected int yearBuilt; protected int squareFeet; protected int bedrooms;
 
     // default constructor
-
-
     public FixedAsset(String name, double marketValue, double weight, double karat, int yearBuilt, int squareFeet, int bedrooms) {
         this.name = name;
         this.marketValue = marketValue;

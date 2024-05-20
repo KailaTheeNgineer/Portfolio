@@ -2,7 +2,10 @@ package com.pluralsight;
 
 public interface Valuable {
 
-    double getValue();
+    default double getValue() {
+
+        return 0;
+    };
 
 
 }
